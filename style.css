@@ -1,0 +1,208 @@
+
+.btn-primary{
+    background: #696cff !important;
+    border: 1px solid #696cff !important;
+}
+.btn-outline-primary{
+    border: 1px solid #696cff !important;
+    color: #696cff !important;
+}
+.btn-outline-primary:hover{
+    background: #696cff !important;
+    border: 1px solid #696cff !important;
+    color: white !important;
+}
+.text-primary{
+    color: #696cff !important;
+}
+.border-search{
+    border: 1px solid #696cff !important;
+    border-radius: 0.25rem;
+}
+.bg-primary{
+    background: #696cff !important;
+}
+.img-user{
+    float: left;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-user-2{
+    float: left;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-img-banner{
+    padding: 20px;
+    background-color: #696cff;
+    border-radius: 50% 50% 0 50%;
+}
+.img-banner{
+    width: 350px;
+    height: 350px;
+    background-image: url("https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50% 50% 0 50%;
+}
+
+.img-profil{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.25rem;
+}
+.img-profil-1{
+    background-image: url("https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+.img-profil-2{
+    background-image: url("https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+.img-profil-3{
+    background-image: url("https://images.pexels.com/photos/4498143/pexels-photo-4498143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+.card-kategori{
+    border-top: 2px solid #696cff;
+}
+
+.gradient-card-hover{
+    display: block !important;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 0px;
+    transition: 0.5s;
+    background: linear-gradient(#696cff86, #696cff);
+    border-radius: 0.25rem;
+}
+.btn-hover-card{
+    position: absolute;
+    left: 10%;
+    display: none;
+    transition: 0.5s;
+    text-align: center;
+    font-size: 0px;
+    color: transparent;
+}
+
+.card-hover:hover .gradient-card-hover{
+    height: 100%; 
+}
+
+.card-hover:hover .btn-hover-card{
+    display: flex;
+    top: 40%;
+    transform: translateY(50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 40px;
+}
+.img-produk{
+    background: white;
+    width: 100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-harga{
+    background: #fff !important;
+    border-top: none;
+}
+.bg-line-art{
+    background-image: url("asset/img/bg/—Pngtree—technology\ business\ line\ atmosphere_931814.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-user-deskripsi{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-img-produk{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: rgb(240, 240, 240);
+}
+.img-produk-deskripsi{
+    position: absolute;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.img-keranjang{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background: rgb(240, 240, 240);
+}
+.img-keranjang img{
+    position: absolute;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.banner-produk{
+    padding-bottom: 40px;
+}
+.card-produk{
+    margin-top: -70px;
+}
+.bg-gradient-primary{
+    background: linear-gradient(to right, #696cff, #0dcaf0);
+}
+.bg-light{
+    background: #f2f8fe !important;
+}
+.btn-primary.active{
+    background: #575ad6 !important;
+}
+
+.btn-aksi{
+    width: 38px;
+    text-align: center !important;
+}
+
+.img-produk-deskripsi{
+    position: absolute;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+.img-modal{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background: rgb(240, 240, 240);
+}
+.img-card{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background: rgb(240, 240, 240);   
+}
+.icon-dashboard{
+    width: 40px;
+    border-radius: 0.25rem;
+    height: 40px;
+    padding: 11px;
+}
